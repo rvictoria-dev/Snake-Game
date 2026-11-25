@@ -66,11 +66,13 @@ https://github.com/user-attachments/assets/2727f315-0c87-421a-adff-b30f0e8317bc
 
 ### 🖿 Project structure
 
+```
 snake-game/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
 ---
 
