@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Snake Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <canvas id="canvas" width="300" height="300"></canvas>
+
+      <div class="info">
+        <h1>Snake Game</h1>
+        <p>Eat the red food and don't bite your tail</p>
+
+        <div class="score-box">
+          Score
+          <b id="score">0</b>
+        </div>
+
+        <small>Use the arrow keys to move</small>
+      </div>
+    </div>
+  </body>
+</html>
